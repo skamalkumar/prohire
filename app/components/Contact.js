@@ -26,11 +26,9 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Handle form submission here
     console.log('Form submitted:', formData)
     setIsSubmitted(true)
-    
-    // Reset form after 3 seconds
+
     setTimeout(() => {
       setIsSubmitted(false)
       setFormData({
@@ -79,25 +77,23 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          {/* Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
               Get In Touch
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Ready to transform your hiring process? Let's discuss how we can help your organization find the right talent.
+              {"Ready to transform your hiring process? Let's discuss how we can help your organization find the right talent."}
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* Contact Information */}
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-6">
                   Contact Information
                 </h3>
                 <p className="text-gray-600 mb-8">
-                  We're here to help you succeed. Reach out to us through any of the following channels.
+                  {"We're here to help you succeed. Reach out to us through any of the following channels."}
                 </p>
               </div>
 
@@ -123,9 +119,7 @@ export default function Contact() {
                 })}
               </div>
 
-              {/* Quick Stats */}
               <div className="relative bg-white rounded-2xl p-8 shadow-lg overflow-hidden">
-                {/* Background Image */}
                 <div className="absolute inset-0 opacity-5">
                   <Image 
                     src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=600" 
@@ -135,34 +129,32 @@ export default function Contact() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                
                 <div className="relative z-10">
-                <h4 className="text-xl font-semibold text-gray-800 mb-6">
-                  Why Contact Us?
-                </h4>
-                <div className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span className="text-gray-600">Free initial consultation</span>
+                  <h4 className="text-xl font-semibold text-gray-800 mb-6">
+                    Why Contact Us?
+                  </h4>
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-green-500" />
+                      <span className="text-gray-600">Free initial consultation</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-green-500" />
+                      <span className="text-gray-600">24-hour response time</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-green-500" />
+                      <span className="text-gray-600">Customized solutions</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-green-500" />
+                      <span className="text-gray-600">Expert guidance</span>
+                    </div>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span className="text-gray-600">24-hour response time</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span className="text-gray-600">Customized solutions</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span className="text-gray-600">Expert guidance</span>
-                  </div>
-                </div>
                 </div>
               </div>
             </div>
 
-            {/* Contact Form */}
             <div className="bg-white rounded-2xl p-8 shadow-lg">
               {isSubmitted ? (
                 <div className="text-center py-12">
@@ -173,7 +165,7 @@ export default function Contact() {
                     Thank You!
                   </h3>
                   <p className="text-gray-600">
-                    Your message has been sent successfully. We'll get back to you within 24 hours.
+                    {"Your message has been sent successfully. We'll get back to you within 24 hours."}
                   </p>
                 </div>
               ) : (

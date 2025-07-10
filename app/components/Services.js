@@ -57,7 +57,7 @@ export default function Services() {
               Our Services
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Comprehensive HR solutions tailored to meet your organization's unique needs and drive success
+              {"Comprehensive HR solutions tailored to meet your organization's unique needs and drive success"}
             </p>
           </div>
 
@@ -97,7 +97,6 @@ export default function Services() {
 
           {/* CTA Section */}
           <div className="relative bg-gradient-to-br from-green-50 to-orange-50 rounded-3xl p-8 md:p-12 overflow-hidden">
-            {/* Background Image */}
             <div className="absolute inset-0 opacity-5">
               <Image 
                 src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1200" 
@@ -113,8 +112,7 @@ export default function Services() {
                 Ready to Transform Your Hiring Process?
               </h3>
               <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-                Let our expert team help you find the perfect talent and optimize your HR operations. 
-                Contact us today for a free consultation.
+                {"Let our expert team help you find the perfect talent and optimize your HR operations. Contact us today for a free consultation."}
               </p>
               <button
                 onClick={() => {

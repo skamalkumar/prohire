@@ -1,4 +1,3 @@
-"use client";
 import { Award, Target, Users, TrendingUp } from 'lucide-react'
 import Image from 'next/image'
 

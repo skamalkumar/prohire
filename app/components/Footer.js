@@ -66,8 +66,8 @@ export default function Footer() {
                   className="h-10 w-10"
                 />
                 <div>
-                  <h3 className="text-xl font-bold">ProHire HR Solution</h3>
-                  <p className="text-gray-400 text-sm">LLP</p>
+                  <h3 className="text-xl font-bold">ProHire HR Solution LLP</h3>
+                  <p className="text-gray-400 text-sm">Right Talent, Right Job, Right Future</p>
                 </div>
               </div>
               

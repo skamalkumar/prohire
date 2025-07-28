@@ -23,8 +23,8 @@ export default function About() {
     },
     {
       icon: TrendingUp,
-      // number: "5+",
-      label: "Established in 2025",
+      number: "Established In 2025",
+      // label: "Established In 2025",
       color: "indigo"
     }
   ]

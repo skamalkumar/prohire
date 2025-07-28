@@ -91,12 +91,12 @@ export default function Hero() {
                           <div className="text-xs text-gray-600">Success Rate</div>
                         </div>
                         <div>
-                          <div className="text-2xl font-bold text-orange-600">500+</div>
+                          <div className="text-2xl font-bold text-orange-600">50+</div>
                           <div className="text-xs text-gray-600">Placements</div>
                         </div>
                         <div>
-                          <div className="text-2xl font-bold text-green-700">5+</div>
-                          <div className="text-xs text-gray-600">Years</div>
+                          <div className="text-1xl font-bold text-green-700">Established In 2025</div>
+                          {/* <div className="text-xs text-gray-600">Established In 2025</div> */}
                         </div>
                       </div>
                     </div>

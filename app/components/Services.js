@@ -35,7 +35,7 @@ export default function Services() {
       icon: Target,
       title: "Industry Expertise",
       description: "Specialized recruitment services across various industries with deep sector knowledge.",
-      features: ["IT & Technology", "Healthcare", "Finance", "Manufacturing"],
+      features: ["IT & Technology", "Healthcare & Pharma", "Finance", "Manufacturing & Engineering", "Sports (On field & On field) & NGO", "Retail and Logistic Automobile & Autocomponent"],
       color: "red"
     },
     {

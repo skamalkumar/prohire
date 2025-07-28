@@ -26,15 +26,15 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Image 
-              src="/ProHire New Logo without Name.png" 
+              src="/ProHire New Logo Without Name.png" 
               alt="ProHire HR Solution LLP Logo"
               width={48}
               height={48}
               className="h-12 w-12"
             />
             <div>
-              <h1 className="text-xl font-bold text-gray-800">ProHire HR Solution</h1>
-              <p className="text-sm text-gray-600">LLP</p>
+              <h1 className="text-xl font-bold text-gray-800">ProHire HR Solution LLP</h1>
+              <p className="text-sm text-gray-600">Right Talent, Right Job, Right Future</p>
             </div>
           </div>
 

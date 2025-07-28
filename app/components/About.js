@@ -5,7 +5,7 @@ export default function About() {
   const stats = [
     {
       icon: Users,
-      number: "500+",
+      number: "50+",
       label: "Successful Placements",
       color: "blue"
     },
@@ -17,14 +17,14 @@ export default function About() {
     },
     {
       icon: Target,
-      number: "100+",
+      number: "30+",
       label: "Partner Companies",
       color: "purple"
     },
     {
       icon: TrendingUp,
-      number: "5+",
-      label: "Years of Excellence",
+      // number: "5+",
+      label: "Established in 2025",
       color: "indigo"
     }
   ]
